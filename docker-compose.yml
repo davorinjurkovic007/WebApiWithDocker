@@ -6,5 +6,3 @@ services:
     build:
       context: .
       dockerfile: WebApiWithDocker/Dockerfile
-    ports:
-      - "3600:80" # HOST_PORT:CONTAINER_PORT
